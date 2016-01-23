@@ -164,17 +164,18 @@ void command() {
   while(state==1) {
     if(Serial.available()) {
       inDis = Serial.parseInt();
-      if(inDis == 0);
-      state = 0;
-      command();
-    } else if (inDis<20 || inDis>500) {
-      Serial.println("Input is out of distance range, please re-enter the distance (min : 20, max : 500)");
-    } else {
-      distance = inDis;
-      Serial.print("Chosen distance : ");
-      Serila.print(inDis);
-      Serial.println(" cm");
-      state++;
+      if(inDis == 0); {
+        state = 0;
+        command();
+      } else if (inDis<20 || inDis>500) {
+        Serial.println("Input is out of distance range, please re-enter the distance (min : 20, max : 500)");
+      } else {
+        distance = inDis;
+        Serial.print("Chosen distance : ");
+        Serila.print(inDis);
+        Serial.println(" cm");
+        state++;
+      }
     }
   }
   Serial.println("Processing...");
