@@ -2,8 +2,8 @@
 This code will enable a simple Arduino Uno to Microstep a stepper motor with help from a motor driver.
 This code require NO LIBRARY or any special fucntion of coding. It's based mostly on physics and calculation to make it this smooth.
 
-Wiring would be similar to this attached liink below
-  http://cdn.instructables.com/FUM/EFGU/HRI8UMM7/FUMEFGUHRI8UMM7.LARGE.jpg
+Wiring would be similar to this attached liink below<br />
+http://cdn.instructables.com/FUM/EFGU/HRI8UMM7/FUMEFGUHRI8UMM7.LARGE.jpg<br />
 DISCLAIMER : The picture in the link are not my creation, and I have no right to calim it as mine.
 
 My configuration is similar to that. 4 pin stepper motor -> driver -> arduino uno.
